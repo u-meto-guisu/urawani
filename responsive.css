@@ -1,0 +1,460 @@
+
+/*タブレット向けcss*/
+@media screen and (max-width: 1100px) {
+  #top{
+    display: none;
+  }
+    .forPC {
+      display: none;
+    }
+    .forMobile {
+      display: block;
+      width: 100vw;
+      height: 100%;
+    }
+    header {
+      visibility: hidden;
+    }
+
+    li+ li {
+      border-left: none;
+    }
+
+.midashi{
+  margin-bottom: 4vh;
+}
+
+
+.castwrapper{
+        font-size: 16px;
+        width:80%;
+        font-weight: normal;
+      }
+
+.team{
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 2.5em;
+}
+
+
+img.castphoto{
+  width: 23vw;
+  height: auto;
+}
+
+.popup-window{
+  width:60vw;
+  height: auto;
+}
+.popupcastimg{
+  width: 25vw;
+  height: auto;
+}
+
+img#dancerphoto{
+  width: 50vw;
+  height: auto;
+  margin: auto;
+}
+.dancerwrapper{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5em;
+}
+
+table.dancertable{
+  width: 40%;
+}
+.nakamuraphoto{
+  width:30vw;
+  height: auto;
+}
+.popupchoreoimg{
+  width: 25vw;
+  height: auto;
+}
+
+.musicwrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexmusiccontena2{
+margin-top: 10vh;
+}
+.musicphoto{
+  width: 18vw;
+  height: auto;
+}
+.musicphoto2{
+  width:19vw;
+  height: auto;
+}
+
+.musicmember h2{
+  font-size: 20px;
+  margin-top: 1em;
+}
+.music p{
+  font-size: 15px;
+}
+
+.popupmusicimg{
+  width:25vw;
+  height: auto;
+}
+
+.staffwrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+table.stafftable{
+  width: 100%;
+  font-size: 15px;
+}
+
+.schedulewrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+table.scheduletable{
+  border-collapse: collapse;
+      width: 100%;
+      align-items: center;
+      height: 170px;
+      font-size: 16px;
+    }
+
+
+.schedulep{
+  font-size: 15px;
+}
+
+.ticketwrapper{
+  width:80%;
+  margin: 0 auto;
+}
+.openkeiko p{
+  font-size: 18px;
+}
+.openkeiko li{
+  font-size: 16px;
+}
+
+.ticket p{
+  font-size: 16px;
+}
+.keiko p{
+  font-size: 16px;
+}
+.button-1{
+  font-size: 1em;
+}
+.button-2{
+  font-size: 0.9em;
+}
+
+.specialwrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer{
+  font-size: 10px;
+}
+
+}
+
+/*スマホ向けCSS*/
+@media screen and (max-width: 767px) {
+
+ #top{
+   display: none;
+ }
+
+  #mobiletop {
+    width: 100%;
+    display: none;
+  }
+
+  .forPC {
+    display: none;
+  }
+  .forMobile {
+    display: block;
+    width: 100vw;
+    height: 100%;
+  }
+  header {
+    visibility: hidden;
+  }
+
+  .storywrapper{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .midashi{
+    text-align: left;
+    font-size: 24px;
+    padding-top: 3em;
+  }
+
+  .explain{
+    display: none;
+  }
+
+  .explainformobile{
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 16px;
+    text-justify: inter-ideograph;
+  }
+  .explainformobile p{
+    margin-top:0;
+    margin-bottom: 0.5em;
+  }
+
+
+  .castwrapper{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .explain2{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .team{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: 2em;
+  }
+
+
+  img.castphoto{
+    width: 25vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .popup-window {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 80vh;
+    padding: 1.7em;
+  }
+  .popupexplain{
+    overflow-y: scroll;
+  }
+
+
+  .popupcastimg{
+    width:65vw;
+    height:auto;
+    margin:0 auto;
+  }
+
+  .popuph2{
+    font-size: 18px;
+    margin-top: 0.5em;
+    padding-left: 0.5em;
+  }
+  .forx{
+    font-size: 20.5px;
+  }
+
+  .popup-text {
+    font-size: 12px;
+    padding: 0;
+    margin: 0.5em;
+  }
+
+
+  .name{
+      font-size: 14px;
+    }
+
+  .dancerwrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  img#dancerphoto{
+    width: 70vw;
+    height: auto;
+    align-items: center;
+  }
+
+  .dancer{
+    font-size: 15px;
+  }
+
+  table.dancertable{
+    width: 80%;
+  }
+  .choreo{
+    font-size: 20px;
+    text-align: center;
+  }
+  .hiyoriname{
+    font-size: 15px;
+  }
+
+  .nakamuraphoto{
+    width: 50vw;
+  }
+  .popupchoreoimg{
+    width: 65vw;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .musicwrapper{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .flexmusiccontena2{
+    margin-top: 10vh;
+}
+
+  .musicphoto{
+    width: 26vw;
+    height: auto;
+    margin: 0;
+  }
+  .musicphoto2{
+    width: 30vw;
+    height: auto;
+    margin: 0;
+  }
+
+  .musicmember{
+    font-size: 16px;
+    line-height: 1;
+  }
+  .music{
+    font-size: 14px;
+    line-height: 1;
+  }
+  .popupmusicimg{
+    width: 65vw;
+    height: auto;
+    margin: 0 auto;
+  }
+  .schedulewrapper{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .theatre{
+  margin-bottom: 20px;
+  text-align: left;
+}
+#mizogeki{
+  width: 50vw;
+  height: auto;
+}
+
+.theatreh2{
+    font-size: 16px;
+  }
+.schedulep{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  table.scheduletable{
+ width: 100%;
+  }
+  .tablebox{
+    width:100%;
+    margin: 0 auto;
+  }
+
+  .scheduleli{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .staffwrapper{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+ table.stafftable{
+   width: 100%;
+ }
+ table.stafftable tr td:nth-of-type(1){
+   font-size: 12px;
+ }
+ table.stafftable tr td:nth-of-type(2){
+   font-size: 14px;
+ }
+
+ .ticketwrapper{
+   width: 90%;
+   margin: 0 auto;
+ }
+ .ticket p{
+   font-size: 14px;
+   text-align: left;
+ }
+
+ .ticketinfo{
+   font-size: 11px!important;
+ }
+
+.openkeiko{
+  text-align: left;
+}
+ .openkeiko p{
+   font-size: 16px;
+ }
+ .openkeiko li{
+   font-size: 14px;
+ }
+ .fa-circle-question{
+   margin-left: 0.2em;
+   font-size: 0.85em;
+   opacity: 0.4;
+ }
+ .button-1{
+   font-size: 1em;
+   margin-top: 3em;
+ }
+
+ .keiko {
+   margin-top: 2em;
+ }
+ .keiko p{
+   font-size: 16px;
+   text-align: left;
+ }
+ .button-2{
+   font-size: 0.7em;
+   margin-top: 1.5em;
+ }
+
+
+ .specialwrapper{
+   width: 90%;
+   margin: 0 auto;
+ }
+
+
+}
