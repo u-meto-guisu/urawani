@@ -816,8 +816,8 @@ table.scheduletable{
   background: #e8ece9;
 }
 
-.specialwrapper{
-  height: 50vh;
+.specialwrapper p{
+  margin:4em auto;
 }
 
 footer {
