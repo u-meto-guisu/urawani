@@ -207,6 +207,42 @@ a:hover{
   display: none;
 }
 
+.snswrapper{
+  padding-top: 17vh;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#umeinsta{
+  font-size: 3.5em;
+  margin: 0;
+  padding: 0;
+}
+#umex{
+  font-size: 3.75em;
+  text-decoration: none;
+  color: #3a5b52;
+  opacity: 0.7;
+  margin-left: 0.4em;
+}
+#umex:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+#umeyoutube{
+  font-size: 3.2em;
+  margin-left: 0.4em;
+}
+#umetiktok{
+  font-size: 3.1em;
+  margin-left: 0.4em;
+}
+
+#snswani{
+  width: 35vw;
+  height: auto;
+}
+
 .castwrapper{
   width: 60%;
   margin:0 auto;
@@ -815,9 +851,9 @@ table.scheduletable{
   color: #888e7e;
   background: #e8ece9;
 }
-
-.specialwrapper p{
-  margin:4em auto;
+.youtube iframe{
+  width:50vw;
+  height:50vh;
 }
 
 footer {
@@ -825,36 +861,6 @@ footer {
   text-align: center;
 }
 
-.umesns{
-  text-align:
-
-}
-
-#umeinsta{
-  font-size: 2.5em;
-  margin: 0;
-  padding: 0;
-}
-#umex{
-  font-size: 2.75em;
-  text-decoration: none;
-  color: #3a5b52;
-  opacity: 0.7;
-  margin-left: 0.3em;
-}
-#umex:hover{
-  opacity: 1;
-  cursor: pointer;
-}
-#umeyoutube{
-  font-size: 2.2em;
-  margin-left: 0.3em;
-}
-#umetiktok{
-  font-size: 2.1em;
-  margin-left: 0.3em;
-  margin-right: 0.3em;
-}
 
 footer p {
   opacity: 0.5;
