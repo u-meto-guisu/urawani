@@ -20,6 +20,42 @@
       border-left: none;
     }
 
+    .snswrapper{
+      padding-top: 10vh;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    #umeinsta{
+      font-size: 3em;
+      margin: 0;
+      padding: 0;
+    }
+    #umex{
+      font-size: 3.25em;
+      text-decoration: none;
+      color: #3a5b52;
+      opacity: 0.7;
+      margin-left: 0.4em;
+    }
+    #umex:hover{
+      opacity: 1;
+      cursor: pointer;
+    }
+    #umeyoutube{
+      font-size: 2.7em;
+      margin-left: 0.4em;
+    }
+    #umetiktok{
+      font-size: 2.6em;
+      margin-left: 0.4em;
+    }
+
+    #snswani{
+      width: 55vw;
+      height: auto;
+    }
+
 .midashi{
   margin-bottom: 4vh;
 }
@@ -164,6 +200,10 @@ table.scheduletable{
   width: 80%;
   margin: 0 auto;
 }
+.youtube iframe{
+  width:560px;
+  height: 315px;
+}
 
 footer{
   font-size: 10px;
@@ -193,6 +233,42 @@ footer{
   }
   header {
     visibility: hidden;
+  }
+
+  .snswrapper{
+    padding-top: 10vh;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #umeinsta{
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+  }
+  #umex{
+    font-size: 2.75em;
+    text-decoration: none;
+    color: #3a5b52;
+    opacity: 0.7;
+    margin-left: 0.3em;
+  }
+  #umex:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+  #umeyoutube{
+    font-size: 2.3em;
+    margin-left: 0.3em;
+  }
+  #umetiktok{
+    font-size: 2.2em;
+    margin-left: 0.3em;
+  }
+
+  #snswani{
+    width: 75vw;
+    height: auto;
   }
 
   .storywrapper{
@@ -455,6 +531,12 @@ footer{
    width: 90%;
    margin: 0 auto;
  }
+ .youtube iframe{
+   width:280px;
+   height:157.5px;
+ }
+
 
 
 }
+
