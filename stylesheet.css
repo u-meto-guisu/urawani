@@ -851,6 +851,10 @@ table.scheduletable{
   color: #888e7e;
   background: #e8ece9;
 }
+
+.specialwrapper p{
+  font-size: 18px;
+}
 .youtube iframe{
   width:50vw;
   height:50vh;
