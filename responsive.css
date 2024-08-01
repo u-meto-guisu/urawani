@@ -207,6 +207,10 @@ table.scheduletable{
   width:560px;
   height: 315px;
 }
+.cf img{
+  width: 70vw;
+  height: auto;
+}
 
 footer{
   font-size: 10px;
@@ -541,6 +545,10 @@ footer{
  .youtube iframe{
    width:280px;
    height:157.5px;
+ }
+ .cf img{
+   width: 70vw;
+   height: auto;
  }
 
 
