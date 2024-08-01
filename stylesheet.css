@@ -859,6 +859,21 @@ table.scheduletable{
   width:50vw;
   height:50vh;
 }
+.youtube{
+  padding-bottom: 8vh;
+}
+.cf{
+  overflow: hidden;
+}
+.cf img{
+  width: 40vw;
+  height: auto;
+  transition:1s all;
+}
+.cf:hover img{
+  filter: brightness(1.5);
+  transform:scale(1.1,1.1);
+}
 
 footer {
   padding: 20px;
