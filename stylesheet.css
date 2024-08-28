@@ -864,6 +864,7 @@ table.scheduletable{
 }
 .cf{
   overflow: hidden;
+  padding-bottom: 8vh;
 }
 .cf img{
   width: 40vw;
@@ -873,7 +874,10 @@ table.scheduletable{
 .cf:hover img{
   filter: brightness(1.5);
 }
-
+.instagram-media{
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
 footer {
   padding: 20px;
   text-align: center;
