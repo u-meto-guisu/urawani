@@ -74,11 +74,7 @@ $(window).on('load scroll', function (){
 
 
 const mediaQuery = window.matchMedia('(max-width: 767px)');
-
-// ページが読み込まれた時に実行
 handle(mediaQuery);
-
-// ウィンドウサイズを変更しても実行（ブレイクポイントの監視）
 mediaQuery.addListener(handle);
 
 function handle(mm) {
@@ -86,25 +82,18 @@ function handle(mm) {
     $(window).on("load", function() {
         $('#mobiletop').fadeIn(2000);
     });
-    // ウィンドウサイズ768px以下のときの処理
   } else {
     $(window).on("load", function() {
         $('#top').fadeIn(2000);
     });
-    // それ以外の処理
   }
 }
 
 $('.popup-open').click(function() {
-  // 背景を固定してスクロールさせない
   $('html, body').css('overflow', 'hidden');
-  // 背景を固定してスクロールさせない
-
 });
 
 $('.popup-close').click(function() {
-  // 背景の固定を解除する
   $('html, body').removeAttr('style');
-  // 背景の固定を解除する
 
 });
