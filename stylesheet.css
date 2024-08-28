@@ -872,7 +872,6 @@ table.scheduletable{
 }
 .cf:hover img{
   filter: brightness(1.5);
-  transform:scale(1.1,1.1);
 }
 
 footer {
