@@ -211,6 +211,14 @@ table.scheduletable{
   width: 70vw;
   height: auto;
 }
+#allmembersphoto{
+  width: 70vw;
+  height: auto;
+}
+#thankswani{
+  width: 55vw;
+  height: auto;
+}
 
 footer{
   font-size: 10px;
@@ -550,6 +558,15 @@ footer{
    width: 70vw;
    height: auto;
  }
+  #allmembersphoto{
+   width: 70vw;
+   height: auto;
+ }
+ #thankswani{
+   width: 75vw;
+   height: auto;
+ }
+
 
 
 
