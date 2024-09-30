@@ -874,10 +874,41 @@ table.scheduletable{
 .cf:hover img{
   filter: brightness(1.5);
 }
+
 .instagram-media{
   margin-right: auto!important;
   margin-left: auto!important;
 }
+
+#allmembersphoto{
+  width:50vw;
+  margin-bottom: 8vh;
+}
+
+.specialthanks{
+  padding-bottom: 3vh;
+}
+
+.specialthanks h2{
+  padding-top: 6vh;
+}
+
+#spth{
+  line-height: 1.9em;
+  text-align: center;
+}
+
+#spth span{
+  display: inline-block;
+  margin:0 0.3em;
+}
+
+#thankswani{
+  width: 35vw;
+  height: auto;
+  margin-bottom: 6vh;
+}
+
 footer {
   padding: 20px;
   text-align: center;
