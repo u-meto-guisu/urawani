@@ -852,6 +852,11 @@ table.scheduletable{
   background: #e8ece9;
 }
 
+.specialwrapper{
+  width:60%;
+  margin: 0 auto;
+}
+
 .specialwrapper p{
   font-size: 18px;
 }
@@ -908,6 +913,7 @@ table.scheduletable{
   height: auto;
   margin-bottom: 6vh;
 }
+
 
 footer {
   padding: 20px;
