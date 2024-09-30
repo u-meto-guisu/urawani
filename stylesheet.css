@@ -884,6 +884,9 @@ table.scheduletable{
   margin-right: auto!important;
   margin-left: auto!important;
 }
+.beforeig{
+  margin-top: 7vh;
+}
 
 #allmembersphoto{
   width:50vw;
@@ -912,6 +915,9 @@ table.scheduletable{
   width: 35vw;
   height: auto;
   margin-bottom: 6vh;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
